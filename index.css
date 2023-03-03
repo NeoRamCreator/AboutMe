@@ -50,7 +50,6 @@ body {
 
 .info>.item {
     margin: 0 50px;
-
 }
 
 .info>.item>h3 {
@@ -120,12 +119,15 @@ ol {
 
 @media (max-width: 700px) {
     .content {
-        width: 88%;
+        width: 98%;
     }
 
     .info {
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .info>.item {
+        margin: 0 5px;
     }
 
     .container {
